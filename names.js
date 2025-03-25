@@ -1,5 +1,8 @@
 // Name function
 
-function person(firstName, lastName) {
+function fullName(firstName, lastName) {
     return { firstName, lastName };
   };
+
+  // Esportazione della funzione
+module.exports = fullName;
